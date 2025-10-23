@@ -1,0 +1,17 @@
+:root {
+    --bg-primary: #121212;
+    --bg-secondary: #1e1e1e;
+    --text-primary: #e0e0e0;
+    --text-secondary: #a0a0a0;
+    --accent-color: #bb86fc;
+    --border-color: #bb86fc; /* Using accent color for visibility */
+    --link-hover-color: #ffffff;
+    --edu-table-bg: #121212;
+    --edu-text-color: #f1f1f1;
+    --edu-header-bg: #1f1f1f;
+    --edu-row-alt-bg1: #181818;
+    --edu-row-alt-bg2: #151515;
+    --edu-border-color: #333;
+    --edu-border-strong-color: #444;
+    --edu-shadow-color: rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Resume </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1.top {
+            text-align: center;
+            border-style: solid;
+            border-width: 2px;
+            border-color: var(--border-color);
+            border-top: none;
+        }
+        p.personal {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        .text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        .container .image {
+            max-width: 80%;
+        }
+        .olink:hover {
+            color: var(--link-hover-color); 
+            font-weight: bold;
+            text-decoration: underline;
+}
+    </style>
+</head>
+<body style="background-color: var(--bg-primary); color: var(--text-primary);">
+    <header>
+        <h1 style="text-align: center; color: var(--text-primary); font-size: 36px; font-weight: bold; margin-bottom: 20px;"> Mhod. Seaumul Islam Khandaker</h1>
+    </header>
+    <h2 style="text-align: center; color: var(--text-primary); font-size: 36px; font-weight: bold; margin-bottom: 10px;"> Quick navigation </h2>
+    <nav style="display: flex;align-items: start; gap: 1%;" tabindex="0">
+        <i> <a class="olink" href=#home> Home </a> </i>
+        <i> <a class="olink" href=#education-section> Education </a> </i>
+    </nav>
+    <section class="personal-info" id="home" style=" margin-bottom: 10px; background-color: var(--bg-secondary);">
+        <h1 class="top"> Personal Information</h1>
+    <div class="container">
+    <div class="image">
+        <img src="images/me.png" alt="My Photo" width="500px">
+    </div>
+    <div class="text">
+        <p class="personal">MHOD. SEAUMUL ISLAM KHANDAKER</p>
+        <p class="personal">Location: Dhaka, Bangladesh</p>
+        <p class="personal">E-mail: Seaumulislam@gmail.com</p>
+    </div>
+    </div>
+    </section>
+    <section id="0">
+        <h1 class="top"> About Me </h1>
+        <p style="color: var(--text-secondary); font-family: 'Times New Roman', Times, serif;">
+            I am visually impaired since I was born. Despite the challenges of visual impairment, I continued my studies in Science Group.
+            I have completed SSC (2019) and HSC (2021). Now, I am studying computer science at <a class="olink" href="https://www.bracu.ac.bd/"> BRAC University</a>
+            in 9th Semester. Being a Hafez of Al Quran, I am studying Arabic language at <a class="olink" href="https://alasrinstitute.com/">Al-Asr Institute </a>
+            to learn and understand the Holy Quran properly. 
+        </p>
+
+    </section>
+<section id="education-section">
+  <h2>Educational Qualification</h2>
+  <table style="width:100%; border-collapse:collapse; font-family:'Segoe UI', sans-serif; background-color:var(--edu-table-bg); color:var(--edu-text-color); border:1px solid var(--edu-border-color); border-radius:8px; overflow:hidden; box-shadow:0 0 10px var(--edu-shadow-color);">
+  <thead>
+    <tr style="background-color:var(--edu-header-bg); text-align:left;">
+      <th style="padding:12px 15px; border-bottom:2px solid var(--edu-border-strong-color);">Year</th>
+      <th style="padding:12px 15px; border-bottom:2px solid var(--edu-border-strong-color);">Qualification</th>
+      <th style="padding:12px 15px; border-bottom:2px solid var(--edu-border-strong-color);">Institution & Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color:var(--edu-row-alt-bg1);">
+      <td style="padding:10px 15px; border-bottom:1px solid var(--edu-border-color);">2025</td>
+      <td style="padding:10px 15px; border-bottom:1px solid var(--edu-border-color);">Student of 9th Semester, BSc (Honors) in Computer Science</td>
+      <td style="padding:10px 15px; border-bottom:1px solid var(--edu-border-color);">BRAC University, Dhaka, Bangladesh</td>
+    </tr>
+    <tr style="background-color:var(--edu-row-alt-bg2);">
+      <td style="padding:10px 15px; border-bottom:1px solid var(--edu-border-color);">2021</td>
+      <td style="padding:10px 15px; border-bottom:1px solid var(--edu-border-color);">Higher Secondary Certificate (HSC) – Equivalent to A Levels<br>Result: GPA 5.0</td>
+      <td style="padding:10px 15px; border-bottom:1px solid var(--edu-border-color);">Science Group, Dhaka Board<br>Vashantek Government College [EIIN: 136841]</td>
+    </tr>
+    <tr style="background-color:var(--edu-row-alt-bg1);">
+      <td style="padding:10px 15px; border-bottom:1px solid var(--edu-border-color);">2019</td>
+      <td style="padding:10px 15px; border-bottom:1px solid var(--edu-border-color);">Secondary School Certificate (SSC) – Equivalent to O Levels<br>Result: GPA 5.0</td>
+      <td style="padding:10px 15px; border-bottom:1px solid var(--edu-border-color);">Science Group, Dhaka Board<br>Greenview High School [1238]</td>
+    </tr>
+    <tr style="background-color:var(--edu-row-alt-bg2);">
+      <td style="padding:10px 15px; border-bottom:1px solid var(--edu-border-color);">2016</td>
+      <td style="padding:10px 15px; border-bottom:1px solid var(--edu-border-color);">Junior School Certificate (JSC) – Equivalent to 8th Grade<br>Result: GPA 5.0</td>
+      <td style="padding:10px 15px; border-bottom:1px solid var(--edu-border-color);">Dhaka Board<br>Dhaka Metropolitan Junior School [137788]</td>
+    </tr>
+    <tr style="background-color:var(--edu-row-alt-bg1);">
+      <td style="padding:10px 15px;">2013</td>
+      <td style="padding:10px 15px;">Primary School Certificate (PSC) – Directorate of Primary Education<br>Result: GPA 5.0</td>
+      <td style="padding:10px 15px;">Bijoy International School [8389]</td>
+    </tr>
+  </tbody>
+</table>
+
+
+</section>
+<section id="more" tabindex="0">
+  <h1 class="top"> Know more about me</h1>
+  <ul style="display: flex; flex-direction: row; justify-content: center; gap: 20px; list-style-type:disc; padding: 0;">
+    <li> <a class="olink" href="hobbies.html"> Hobbies </a> </li>
+    <li> <a class="olink" href=" Vision.html"> Vision & goal </a> </li>
+    <li> <a class="olink" href="projects.html"> Projects </a> </li>
+    <li> <a class="olink" href="skills.html"> Skills </a> </li>
+    <li> <a class="olink" href=" https://discord.com/channels/1424951276478791692/1424951277955190789"> Discord page for this project</a> </li>
+  </ul>
+  </section>
+<script src="script.js"></script>
+<footer style="text-align: center;">
+  &copy; 2025 Mhod. Seaumul Islam Khandaker. All rights reserved.
+</footer>
+
+</body>
+</html>
